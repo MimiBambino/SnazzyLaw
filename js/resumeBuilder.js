@@ -59,7 +59,8 @@ var SVG = {
 		$("#education-circle").on("click", function(){
 			$(".main").hide();
 			$('button').html("Home").removeClass('show-all').addClass('home');
-			$('#education').show();
+			$('#education').fadeIn();
+			/*$('#education').show();*/
 			$('#work').hide();
 			$('#projects').hide();
 			$('#skills').hide();
