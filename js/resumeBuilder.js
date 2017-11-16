@@ -107,15 +107,15 @@ var SVG = {
 
 var bio = {
 	"name": "Cynthia O'Donnell",
-	"role": "JavaScript Web Developer",
+	"role": "Consumer Protection Attorney",
 	"welcomeMessage": "<p>Welcome to my resume!  Please click on an area of interest for more information.</p>",
 	"contacts": {
 		"website" : "www.mimibambino.com", 
-		"email" : "mimibambino@gmail.com",
+		"email" : "cynthia@cynthiafussellodonnell.com",
 		"twitter" : "@mimibambino",
 		"github" : "MimiBambino",
 		"linkedin" : "Cynthia O'Donnell",
-		"location" : "Naples, Italy"
+		"location" : "Mount Dora, Florida"
 	},
 	"skills": ["css", "php", "html5", "python", "ruby/rails", "javascript", "business law", "management", "paper airplanes", "conversational german"], 
 	"image": "images/Cynthia.jpg",
