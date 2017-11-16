@@ -60,7 +60,6 @@ var SVG = {
 			$(".main").hide();
 			$('button').html("Home").removeClass('show-all').addClass('home');
 			$('#education').fadeIn("slow");
-			/*$('#education').show();*/
 			$('#work').hide();
 			$('#projects').hide();
 			$('#skills').hide();
@@ -69,7 +68,7 @@ var SVG = {
 		$("#work-circle").on("click", function(){
 			$(".main").hide();
 			$('button').html("Home").removeClass('show-all').addClass('home');
-			$('#work').show();
+			$('#work').fadeIn("slow");
 			$('#education').hide();
 			$('#projects').hide();
 			$('#skills').hide();
@@ -78,7 +77,7 @@ var SVG = {
 		$("#projects-circle").on("click", function(){
 			$(".main").hide();
 			$('button').html("Home").removeClass('show-all').addClass('home');
-			$('#projects').show();
+			$('#projects').fadeIn("slow");
 			$('#education').hide();
 			$('#work').hide();
 			$('#skills').hide();
@@ -87,7 +86,7 @@ var SVG = {
 		$("#skills-circle").on("click", function(){
 			$(".main").hide();
 			$('button').html("Home").removeClass('show-all').addClass('home');
-			$('#skills').show();
+			$('#skills').fadeIn("slow");
 			$('#education').hide();
 			$('#work').hide();
 			$('#projects').hide();
@@ -96,8 +95,8 @@ var SVG = {
 		$("#about-circle").on("click", function(){
 			$(".main").hide();
 			$('button').html("Home").removeClass('show-all').addClass('home');
-			$('#about').show();
-			$('#mapDiv').show();
+			$('#about').fadeIn("slow");
+			/*$('#mapDiv').show();*/
 			$('#education').hide();
 			$('#work').hide();
 			$('#projects').hide();
