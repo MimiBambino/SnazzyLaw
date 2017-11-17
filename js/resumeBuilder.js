@@ -4,15 +4,15 @@ var SVG = {
 			"id": "education-circle",
 			"text_x": 28,
 			"text_y": 115,
-			"text": "Education",
+			"text": "Bankruptcy",
 			"color": "primary"
 		},
 		"work": {
 			"id": "work-circle",
 			"text_x": 60,
 			"text_y": 90,
-			"text": "Work",
-			"moreText": "<text x='20' y='130' width='3cm' height='3cm' font-size='35' fill='white'>Experience</text>",
+			"text": "Identity",
+			"moreText": "<text x='20' y='130' width='3cm' height='3cm' font-size='35' fill='white'>Theft</text>",
 			"color": "gray"
 		},
 		"projects": {
