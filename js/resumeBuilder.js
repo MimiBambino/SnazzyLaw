@@ -2,39 +2,39 @@ var SVG = {
 	"circle": {
 		"education": {
 			"id": "education-circle",
-			"text_x": 28,
+			"text_x": 18,
 			"text_y": 115,
 			"text": "Bankruptcy",
 			"color": "primary"
 		},
 		"work": {
 			"id": "work-circle",
-			"text_x": 60,
+			"text_x": 50,
 			"text_y": 90,
 			"text": "Identity",
-			"moreText": "<text x='20' y='130' width='3cm' height='3cm' font-size='35' fill='white'>Theft</text>",
+			"moreText": "<text x='65' y='130' width='3cm' height='3cm' font-size='35' fill='white'>Theft</text>",
 			"color": "gray"
 		},
 		"projects": {
 			"id": "projects-circle",
-			"text_x": 40,
-			"text_y": 115,
-			"text": "Projects",
+			"text_x": 20,
+			"text_y": 90,
+			"text": "Fair Credit",
+			"moreText": "<text x='10' y='130' width='3cm' height='3cm' font-size='35' fill='white'>Reporting Act</text>",
 			"color": "analgous"
 		}, 
 		"skills": {
 			"id": "skills-circle",
-			"text_x": 65,
+			"text_x": 72,
 			"text_y": 115,
-			"text": "Skills",
+			"text": "Blog",
 			"color": "contrasting-1"
 		},
 		"about": {
 			"id": "about-circle",
 			"text_x": 60,
-			"text_y": 90,
+			"text_y": 115,
 			"text": "About",
-			"moreText": "<text x='80' y='130' width='3cm' height='3cm' font-size='35' fill='white'>Me</text>",
 			"color": "primary"
 		}
 	},
