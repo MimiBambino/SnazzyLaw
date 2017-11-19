@@ -58,17 +58,23 @@ body {
 	color: white;
 }
 
-h1.analgous-color {
-	display: block;
+.name.analgous-color {
+	display: inline;
 	font-family: 'Montez', 'Brush Script MT', 'Papyrus', cursive;
-	font-size: 5.2em;
+	font-size: 2.4em;
 	font-weight: 100;
 	line-height: 1.1;
 }
 
+.lawOffice {
+	font-size: .8em;
+}
+
 h4.contrasting1-color {
+	color: #265154;
 	text-transform: uppercase;
-	line-height: 0.2;
+	font-size:1.5em;
+	/*line-height: 0.2;*/
 }
 
 h1, h2, a {
@@ -93,9 +99,8 @@ text {
 	fill: white;
 }
 
-.container {
-	padding-left:30px;
-	padding-right:30px;
+.navbar.container {
+	padding:10px;
 }
 
 .heading {
@@ -128,6 +133,14 @@ text {
 
 /* Header */
 
+.logo {
+	position: absolute;
+}
+
+#navbar > ul {
+	padding-top: 10px;
+}
+
 header {
 	padding: -5px;
 	color: #002b2e;
@@ -159,10 +172,26 @@ header .row {
 	margin-left: 0;
 }
 
+/* Main */
+
+.main {
+	border-top: 80px;
+}
+
+.spacer {
+	height:20px;
+}
+
+.svg-container {
+
+}
+
+
 /* SVGs */
 
 svg {
 	display: inline-block;
+	/*border: 30px;*/
 }
 
 .primary {
@@ -189,6 +218,10 @@ svg {
 	fill: #4b4b4b; /* gray svg */
 }
 
+
+.main {
+	margin-top: 100px;
+}
 .main ul li{
 	margin-left: -20px;
 }
@@ -436,9 +469,14 @@ svg {
    position:fixed;
    left:0px;
    bottom:0px;
-   height:30px;
+   height:65px;
    width:100%;
-   background:#999;
+   background:#eee;
+}
+
+#footer > p {
+	/*margin: 0 auto;*/
+	text-align: center;
 }
 
 footer {
@@ -489,7 +527,6 @@ button {
 @media screen and (max-width: 1000px) {
 	.main ul li{
 		margin-bottom: -20px;
-		margin-top: -20px;
 	}
 	footer {
 		padding-top: 30px;
