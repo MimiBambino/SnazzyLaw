@@ -1,3 +1,21 @@
+$("#Bankruptcy").hide();
+
+$("#FCRA").hide();
+
+$("#bankruptcy-circle").on("click", function(){
+			$("#home").hide();
+			$('#Bankruptcy').fadeIn("slow");
+			$('#work').hide();
+			$('#projects').hide();
+			$('#skills').hide();
+			$('#about').hide();
+		});
+
+// $("#FCRA").fadeIn("slow");
+
+
+
+
 var SVG = {
 	"circle": {
 		"education": {
@@ -105,7 +123,9 @@ var SVG = {
 	}
 };
 
-SVG.display();
+
+
+
 
 // var bio = {
 // 	"name": "Cynthia O'Donnell",
