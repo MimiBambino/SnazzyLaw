@@ -63,6 +63,10 @@ body {
 	color: white;
 }
 
+.main-font {
+	color: #04474c;
+}
+
 .name.analgous-color {
 	display: inline;
 	font-family: 'Montez', 'Brush Script MT', 'Papyrus', cursive;
