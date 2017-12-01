@@ -16,7 +16,6 @@
     <link rel='stylesheet' href='css/bootstrap.min.css'>
     <script src='js/jQuery.js'></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src='js/helper.js'></script>
     <script src='js/resumeBuilder.js'></script>
     <!--Google font for my name, footer and standard text-->
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400|Parisienne|Montez|Poly' rel='stylesheet' type='text/css'>
@@ -47,9 +46,16 @@
         <div id="navbar" class="navbar-collapse collapse">
 
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="./bankruptcy.html">Bankruptcy</a></li>
-            <li><a href="./fcra.html">FCRA</a></li>
-            <li><a href="./student.html">Student Loans</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Practice Areas
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="./identity.html">Identity Theft</a></li>
+                <li><a href="./fcra.html">Fair Credit Reporting</a></li>
+                <li><a href="./student.html">Student Loans</a></li>
+                <li><a href="./bankruptcy.html">Bankruptcy</a></li>
+              </ul>
+            </li>
+            <li><a href="./faq.html">FAQ</a></li>
             <li><a href="./about.html">About</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -66,9 +72,12 @@
         <div class="row">
           <div class="col-md-2"></div>
           <div class="col-md-8 main-font">
-            <p><b>Cynthia FussellO’Donnell was born and raised in the panhandle of Florida. She graduated from Florida State University with a B.A. in Music. Coming from a long line of military veterans, she joined the U.S. Navy and attended Officer Candidate School in Pensacola, Florida in February 2001. While in the Navy, she served onboard USS Mahan (DDG-72) as the Strike Warfare Office and USS Hue City (CG-66) as the Damage Control Assistant making two deployments in support of Operation Enduring Freedom and Operation Iraqi Freedom.</b></p>
-            <p><b>In 2008, she graduated from the University of Florida College of Law and practiced law in the field of bankruptcy and business litigation at Case, Lombardi and Pettit. Cynthia started her own firm in order to focus on serving consumers.  She is passionate about educating consumers on their rights and how they can protect themselves from predatory practices. In addition to being a fierce advocate for consumers, Cynthia also serves as the president of ACLU Central Florida.</b>
-            </p>
+            <b><p>Cynthia Fussell O’Donnell practices exclusively in the field of consumer financial protection, including Identity Theft, Fair Credit Reporting violations, Fair Debt Collection violations, student loans and bankruptcy. </p>
+
+            <p>She was born and raised in the panhandle of Florida and graduated from Florida State University with a B.A. in Music. Coming from a long line of military veterans, she joined the U.S. Navy and attended Officer Candidate School in Pensacola, Florida in February 2001. While in the Navy, she served onboard USS Mahan (DDG-72) as the Strike Warfare Office and USS Hue City (CG-66) as the Damage Control Assistant making two deployments in support of Operation Enduring Freedom and Operation Iraqi Freedom.</p>
+            <p>In 2008, she graduated from the University of Florida College of Law and practiced law in the field of bankruptcy and business litigation at Case, Lombardi and Pettit. Cynthia started her own firm in order to focus on serving consumers.  She is passionate about educating consumers on their rights and how they can protect themselves from predatory practices. </p>
+            <p>In addition to being a fierce advocate for consumers, Cynthia also serves as the president of ACLU Central Florida.
+            </p></b>
           </div>
         </div>
           <div class="container spacer"></div>
@@ -86,8 +95,5 @@
     <footer id="footer" class="text-center">
           <p>&copy; 2018 - Law Office of Cynthia O'Donnell, P.A.</p>
     </footer>
-
-
-    <script src='js/resumeBuilder.js'></script>
   </body>
 </html>
