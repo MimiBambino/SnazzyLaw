@@ -473,19 +473,6 @@ footer {
 	clear: both;
 }
 
-#javascript {
-	font-family: 'Montez', 'Brush Script MT', 'Papyrus', cursive;
-	color: #008cb0 ;
-	font-size: 1.6em;
-}
-
-.github {
-	height: auto; 
-	width: auto; 
-	max-width: 20px; 
-	max-height: 20px;"
-}
-
 button {
 	color: white;
 	background-color: #008cb0;
@@ -517,9 +504,6 @@ button {
 	.main ul li{
 		margin-bottom: -20px;
 	}
-	footer {
-		padding-top: 30px;
-	}
 	.contact-list {
 		text-align: center;
 	}
@@ -530,9 +514,6 @@ button {
 }
 
 @media screen and (max-width: 700px){
-	footer {
-		padding-top: 60px;
-	}
 	#mapDiv {
 		height: 300px;
 		width: 300px;
