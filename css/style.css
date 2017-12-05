@@ -513,12 +513,3 @@ button {
 
 }
 
-@media screen and (max-width: 700px){
-	#mapDiv {
-		height: 300px;
-		width: 300px;
-	}
-	.navy-col, .lawyer-col {
-		height: auto;
-	}
-}
