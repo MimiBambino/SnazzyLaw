@@ -1,6 +1,6 @@
 /*  Icons */
 
-@font-face {
+/*@font-face {
 	font-family: 'icomoon';
 	src:url('fonts/icomoon.eot?e83dlr');
 	src:url('fonts/icomoon.eot?#iefixe83dlr') format('embedded-opentype'),
@@ -9,44 +9,25 @@
 		url('fonts/icomoon.svg?e83dlr#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
+}*/
+
+@font-face {
+	font-family: "Stephanie Marie";
+	src: url('fonts/StephanieMarie.ttf') format('truetype');
 }
 
-[class^="icon-"], [class*=" icon-"] {
-	font-family: 'icomoon';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
+.cynthia {
 
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon {
-	font-size: 1.5em;
+@font-face {
+	font-family: "Parisian";
+	src: url('fonts/Parisian.ttf') format('truetype');
 }
 
-.icon-link:before {
-	content: "\e600";
-}
-.icon-twitter:before {
-	content: "\e601";
-}
-.icon-github:before {
-	content: "\e602";
-}
-.icon-linkedin:before {
-	content: "\e603";
-}
-.icon-mail:before {
-	content: "\e604";
-}
-
-.icon-mail {
-	padding-top: 5px;
+.lawOffice {
+	font-family: Parisian;
+	font-size: 1.3em;
 }
 
 /* General styling */
@@ -68,15 +49,10 @@ body {
 }
 
 .name.analgous-color {
+	font-family: "Stephanie Marie", Montez;
 	display: inline;
-	font-family: 'Montez', 'Brush Script MT', 'Papyrus', cursive;
-	font-size: 2.4em;
-	font-weight: 100;
+	font-size: 2.5em;
 	line-height: 1.1;
-}
-
-.lawOffice {
-	font-size: .8em;
 }
 
 h4.contrasting1-color {
@@ -144,6 +120,7 @@ text {
 
 .logo {
 	position: absolute;
+	max-width: 50%;
 }
 
 #navbar > ul {
