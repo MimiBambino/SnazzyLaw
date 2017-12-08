@@ -298,6 +298,28 @@ button {
 	outline: none;
 }
 
+ul.dropdown-menu > li {
+	display: block;
+	background-color: #f8f8f8 75%;
+    width:170px;
+}
+li.dropdown {
+	background-color: #f8f8f8;
+    border-color: #e7e7e7;
+	width:170px;
+}
+ul.nav.navbar-nav {
+	background-color: #f8f8f8;
+    width: 170px;
+}
+
+/*.dropdown-menu {
+	right:0;
+	background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    width:50px;
+}*/
+
 /* Media Queries */
 
 @media screen and (max-width: 1200px) {
