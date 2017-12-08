@@ -1,23 +1,6 @@
-/*  Icons */
-
-/*@font-face {
-	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?e83dlr');
-	src:url('fonts/icomoon.eot?#iefixe83dlr') format('embedded-opentype'),
-		url('fonts/icomoon.woff?e83dlr') format('woff'),
-		url('fonts/icomoon.ttf?e83dlr') format('truetype'),
-		url('fonts/icomoon.svg?e83dlr#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}*/
-
 @font-face {
 	font-family: "Stephanie Marie";
 	src: url('fonts/StephanieMarie.ttf') format('truetype');
-}
-
-.cynthia {
-
 }
 
 @font-face {
@@ -25,9 +8,27 @@
 	src: url('fonts/Parisian.ttf') format('truetype');
 }
 
+@font-face {
+	font-family: "Kuenstler 165";
+	src: url('fonts/Kuenstler165.otf');
+}
+
+@font-face {
+	font-family: "Academy Engraved";
+	src: url('fonts/AcademyEngraved.ttf');
+}
+
 .lawOffice {
-	font-family: Parisian;
-	font-size: 1.3em;
+	font-family: "Academy Engraved";
+	text-transform: uppercase;
+	font-size: 0.9em;
+}
+.first {
+	font-size: 1.6em;
+}
+
+.navbar-height {
+	height: 85px;
 }
 
 /* General styling */
@@ -56,10 +57,10 @@ body {
 }
 
 h4.contrasting1-color {
+	font-family: "Kuenstler 165";
 	color: #265154;
 	text-transform: uppercase;
-	font-size:1.5em;
-	/*line-height: 0.2;*/
+	font-size:1.2em;
 }
 
 h1, h2, a {
@@ -70,30 +71,23 @@ h2 {
 	font-size: 2.2em;
 }
 
-.section-heading {
-	font-style: italic;
-}
-
 li {
 	display: inline-block;
 	list-style : none;
 }
 
 text {
-	font-size: 1.6em;
+	font-size: 2em;
 	fill: white;
+	font-family: "Kuenstler 165";
+}
+
+#small-circles {
+	display: none;
 }
 
 .navbar.container {
 	padding:10px;
-}
-
-.heading {
-	color: white;
-}
-
-.col h1 {
-	color: white;
 }
 
 .primary-color {
@@ -136,11 +130,11 @@ header h4 {
 	padding-bottom: 10px;
 }
 
-
-
 header .row {
 	margin-left: 0;
 }
+
+
 
 /* Main */
 
@@ -151,11 +145,6 @@ header .row {
 .spacer {
 	height:20px;
 }
-
-.svg-container {
-
-}
-
 
 /* SVGs */
 
@@ -187,7 +176,6 @@ svg {
 .gray {
 	fill: #4b4b4b; /* gray svg */
 }
-
 
 .main {
 	margin-top: 100px;
@@ -228,72 +216,12 @@ svg {
 	fill: #265154;
 }
 
-/* Education Section*/
-
-.programming-col {
-	background-color: #03bbc5;
-	border-radius: 10px;
-	height: 400px;
-	padding-bottom: 0;
-	margin: 1%;
-	padding: -1%;
-}
-
-.programming-col h1 {
-	font-family: 'Lato';
-	font-size: 3.4em;
-	font-weight: 300;
-	color: white;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-.certificate {
-	margin-top: 0;
-}
-
-.Law-col {
-	background-color: #646464;
-	border-radius: 10px;
-	height: 400px;
-	margin: 1%;
-	padding: -1%;
-}
-
-.Law-col h1 {
-	font-family: 'Poly';
-	font-size: 4.6em;
-	font-weight: 300;
-	padding-bottom: 20px;
-}
-
-.Law-col > div, .Music-col > div {
-	padding: 5px;
-}
-
-.Law-col .row {
-	margin-top: 10px;
-}
-
 .oC::before {
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
 .oC {
 	padding: 5px 5px 0 5px;
-}
-
-.Music-col {
-	background-color: #008cb0;
-	border-radius: 10px;
-	height: 400px;
-	margin: 1%;
-	padding: -1%;
-}
-
-.Music-col h1 {
-	padding-top: 15px;
-	padding-bottom: 5px;
 }
 
 .heading {
@@ -317,75 +245,13 @@ svg {
 	border-bottom: 1px solid #444;
 }
 
-.certificate {
-	font-family: 'Montez';
-	text-decoration: none;
-	color: #444;
-	font-size: 1.4em;
-	line-height: 1;
-}
-
 .certificate:hover {
 	text-decoration: none;
 	color: #eee;
 }
 
-.Music-col h1 {
-	font-family: 'Parisienne';
-	font-size: 4.6em;
-	font-weight: 300;
-}
-
-/* Work Section */
-
-.lawyer-col h1 {
-	color: white;
-}
-
-.navy-col {
-	background-color: #002b2e;
-	border-radius: 10px;
-	padding: 0 20px 20px 20px;
-	height: 360px;
-}
-
-.navy-col h1 {
-	color: white;
-	font-family: Poly;
-	font-variant: small-caps;
-	font-size: 4em;
-}
-
-.lawyer-col {
-	background-color: #008cb0;
-	border-radius: 10px;
-	padding: 0 20px 20px 20px;
-	height: 360px;
-}
-
-.lawyer-col h1 {
-	color: white;
-	font-family: Poly;
-	font-size: 4em;
-}
-
-.employer {
-	font-style: italic;
-	font-size: 1.2em;
-}
-
 .description {
 	text-align: justify;
-}
-
-/* Projects Section */
-
-.projects-row a {
-	color: #008cb0;
-}
-
-.project {
-	color: #008cb0;
 }
 
 .project:hover {
@@ -397,40 +263,6 @@ svg {
 
 #projects {
 	color: #008cb0;
-}
-
-/* Skills Section */
-
-.skill-list li {
-	font-weight: bold;
-	display: block;
-	font-size: 1.5em;
-}
-
-/* Contacts Section */
-
-.contact-type {
-	font-weight: bold;
-	font-size: 0.8em;
-	color: #008cb0;
-	display: block;
-}
-
-.contact-data {
-	font-weight: bold;
-	font-size: 1.5em;
-	color: #008cb0;
-}
-
-/*  About Me */
-
-.blog-col-even, .blog-col-odd {
-	text-align: justify;
-	padding: 20px;
-}
-
-.blog-box h4 {
-	text-align: center;
 }
 
 /* Footer */
@@ -470,10 +302,56 @@ button {
 
 @media screen and (max-width: 1200px) {
 	.programming-col h1 {
-	font-size: 3em;
+		font-size: 3em;
 	}
-	.navy-col, .lawyer-col {
-		height: 400px;
+}
+
+@media screen and (max-width: 1000px) {
+	#large-circles {
+		display: none;
+	}
+	#small-circles {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 880px) {
+	.lawOffice {
+		font-size: 0.7em;
+	}
+	.first {
+		font-size: 1.2em;
+	}
+
+	.navbar-height {
+		height: 75px;
+	}
+	.name.analgous-color {
+		font-size: 2.1em;
+	}
+	.logo {
+		max-width: 75%;
+	}
+	h4.contrasting1-color {
+		font-size:1em;
+	}
+}
+
+@media screen and (max-width: 460px){
+	.lawOffice {
+		font-size: 0.6em;
+	}
+	.first {
+		font-size: 1.1em;
+	}
+	.name.analgous-color {
+		font-size: 1.9em;
+	}
+}
+
+@media screen and (max-width: 420px){
+	.name.analgous-color {
+		font-size: 1.5em;
 	}
 }
 
@@ -484,8 +362,4 @@ button {
 	.contact-list {
 		text-align: center;
 	}
-	.navy-col, .lawyer-col {
-		height: 260px;
-	}
-
 }
