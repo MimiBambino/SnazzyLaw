@@ -82,6 +82,10 @@ text {
 	font-family: "Kuenstler 165";
 }
 
+
+#student-loans {
+	fill: #027390;
+}
 #small-circles {
 	display: none;
 }
