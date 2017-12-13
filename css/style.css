@@ -47,6 +47,7 @@ body {
 
 .main-font {
 	color: #04474c;
+	font-size: 1.2em;
 }
 
 .name.analgous-color {
@@ -89,31 +90,27 @@ text {
 #small-circles {
 	display: none;
 }
-
 .navbar.container {
 	padding:10px;
 }
-
 .primary-color {
 	color: #03bbc5;
 }
-
 .contrasting-1-color {
 	color: #002b2e;
 }
-
 .contrasting-2-color {
 	color: #646464;
 }
-
 .analgous-color {
 	color: #008cb0;
 }
-
 .muted-color {
 	color: #777;
 }
-
+#student-loans {
+	fill: #027390
+}
 /* Header */
 
 .logo {
@@ -137,8 +134,6 @@ header h4 {
 header .row {
 	margin-left: 0;
 }
-
-
 
 /* Main */
 
@@ -170,7 +165,7 @@ svg {
 }
 
 .analgous {
-	fill: #008cb0; /* my name, app names */
+	fill: #1792ab; /* my name, app names */
 }
 
 .muted {
@@ -188,36 +183,46 @@ svg {
 	margin-left: -20px;
 }
 
-#work-circle {
-	fill: #646464;
-}
-
-#work-circle:hover {
-	fill: #8A8A8A;
-}
-
-#bankruptcy-circle, #skills-circle {
-	fill: #03bbc5;
-}
-
-#bankruptcy-circle:hover, #skills-circle:hover {
-	fill: #29E1EB;
-}
-
-#projects-circle {
+#first-circle {
 	fill: #008cb0;
 }
 
-#projects-circle:hover {
-	fill: #26B2D6;
+#second-circle {
+	fill: #1bb0c5;
 }
 
-#about-circle {
-	fill: #002b2e;
+#third-circle {
+
+	fill: #1bced8;
 }
 
-#about-circle:hover {
-	fill: #265154;
+#fourth-circle {
+	
+	fill: #16aba2;
+}
+
+#fifth-circle {
+	fill: #088652;
+}
+
+#first-circle:hover {
+	fill: #8A8A8A;
+}
+
+#second-circle:hover {
+	fill: #8A8A8A;
+}
+
+#third-circle:hover {
+	fill: #8A8A8A;
+}
+
+#fourth-circle:hover {
+	fill: #8A8A8A;
+}
+
+#fifth-circle:hover {
+	fill: #8A8A8A;
 }
 
 .oC::before {
@@ -230,43 +235,6 @@ svg {
 
 .heading {
 	border-bottom: 2px solid #eee;
-}
-
-/*.title {
-	padding-top: 10px;
-}*/
-
-.school {
-	color: white;
-	margin: 3px;
-	border-bottom: 1px solid white;
-	line-height: 1;
-}
-
-.school:hover {
-	text-decoration: none;
-	color: #444;
-	border-bottom: 1px solid #444;
-}
-
-.certificate:hover {
-	text-decoration: none;
-	color: #eee;
-}
-
-.description {
-	text-align: justify;
-}
-
-.project:hover {
-	text-decoration: none;
-	color: #444;
-	border-bottom: 1px solid #444;
-	line-height: 1;
-}
-
-#projects {
-	color: #008cb0;
 }
 
 /* Footer */
