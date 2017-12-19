@@ -90,6 +90,10 @@ text {
 	font-family: "Kuenstler 165";
 }
 
+text.smallCircles {
+	font-size: 1.8em;
+}
+
 
 #student-loans {
 	fill: #027390;
