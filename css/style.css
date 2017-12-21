@@ -102,10 +102,10 @@ body {
 
 .main-font {
 	color: #04474c;
-	font-size: 1.2em;
+	font-size: 1em;
 }
 
-.first {
+h4 > .first {
 	font-size: 1.6em;
 }
 
@@ -242,6 +242,15 @@ button {
 	font-size: 1.5em;
 }
 
+	/* Fade-out */
+#bottom_fade {
+	z-index: 99;
+	position: fixed;
+	bottom: 0%;
+	background-image: url("../images/bottom-fade.png");
+	height: 150px;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 1200px) {
@@ -284,9 +293,6 @@ button {
 	}
 	.logo {
 		max-width: 100%;
-	}
-	h4.contrasting1-color {
-		font-size:1em;
 	}
 	#contact-btn {
 		font-size:1.1em;
