@@ -73,7 +73,7 @@ header.row {
 	padding: 13px; 
 	border-radius: 50px;
 	font-weight: 100;
-	background-color: #1bb0c5;
+	background-color: #16aba2;
 }
 
 	/* Logo */
@@ -162,7 +162,12 @@ text {
 text.smallCircles {
 	font-size: 1.8em;
 }
+
+text.verySmall {
+	font-size: 1.62em;
+}
 	/* Fill Colors */
+}
 
 #first-circle {
 	fill: #008cb0;
