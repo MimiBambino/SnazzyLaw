@@ -63,7 +63,6 @@ header.row {
 	margin-left: 0;
 }
 
-
 /* Work on this: color, size, font, padding, margin */
 
 #small-contact {
@@ -197,6 +196,35 @@ text.verySmall {
 
 #first-circle:hover, #second-circle:hover, #third-circle:hover, #fourth-circle:hover, #fifth-circle:hover {
 	fill: #8A8A8A;
+}
+
+/* Bullets */
+
+.bullet {
+	
+}
+
+.bullet-one {
+	fill: #088652;
+}
+
+.bullet-two {
+	fill: #16aba2;
+}
+
+.bullet-three {
+	fill: #1bb0c5;
+}
+
+.headline {
+	font-family: "Kuenstler 165";
+	font-size: 2em;
+	padding-left: 20px;
+	color: #008cb0;
+}
+
+.wonky-header-number {
+	font-size: 2em;
 }
 
 /* Body */
